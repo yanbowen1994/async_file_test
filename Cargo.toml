@@ -1,0 +1,13 @@
+[package]
+name = "async_file_io"
+version = "0.1.0"
+authors = ["yanbowen <511838976@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "~1.5.0", features = [ "attributes"] }
+futures = "0.3.5"
+positioned-io = ""
+rand = "0.7.3"
